@@ -1,0 +1,29 @@
+main{
+  background-color: var(--highlight);
+  width: 75%;
+  height: 90%;
+  position: absolute;
+  left: 50%;
+  top:50%;
+  transform: translate(-50%,-50%);
+  overflow-y: auto;
+
+  header{
+    position: relative;
+    margin-bottom: 10rem;
+    text-align: center;
+
+    form{
+      position: absolute;
+      right: 1rem;
+      top: 0;
+    }
+  }
+
+  table{
+      td:first-child,th:first-child{
+        border-right: none;
+        flex:0.2;
+      }
+  }
+}
